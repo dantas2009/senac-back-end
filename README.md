@@ -28,9 +28,39 @@ Before installing the project, ensure you have the following installed on your s
 
 ```bash
 git clone https://github.com/dantas2009/senac-back-end.git
+```
+
+2. Navigate to the project directory:
+
+```bash
 cd senac-back-end
+```
+
+3. Create a virtual environment (optional but recommended):
+
+```bash
 python -m venv venv
+```
+
+4. Activate the virtual environment :
+
+4.1 For Windows:
+```bash
 venv\Scripts\activate
+```
+4.2 For macOS and Linux:
+```bash
 source venv/bin/activate
+```
+
+5. Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+6. Start the server:
+
+```bash
 uvicorn main:app --reload
+```
