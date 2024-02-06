@@ -1,23 +1,36 @@
-# Compra Inteligente
+# Smart Shopping
 
-<h1 align="center">Projeto Final (Back-end) - Pós Full-Stack</h1>
+<h1 align="center">Final Project (Back-end) - Post Full-Stack</h1>
 
-<h2>Introdução</h2>
-<p>Enfrentar a complexidade dos gastos cotidianos é uma realidade comum. Apresentamos o Compra Inteligente, uma plataforma integrada que simplifica a gestão de despesas. </p>
-<p>Nosso aplicativo oferece rastreamento eficaz, categorização intuitiva e uma visão em tempo real dos gastos, capacitando os usuários a tomar decisões financeiras informadas e economizar tempo nas compras.</p>
+## Introduction
+Facing the complexity of daily expenses is a common reality. We present Smart Shopping, an integrated platform that simplifies expense management.
+Our application offers effective tracking, intuitive categorization, and real-time insight into spending, empowering users to make informed financial decisions and save time on shopping.
 
-<h2>Objetivo</h2>
-<p>Simplificamos a vida dos usuários com uma plataforma única para criar e gerenciar listas de compras.</p>
-<p>O Compra Inteligente oferece rastreamento de despesas, mantendo o orçamento em dia. Com uma interface intuitiva, categorize seus gastos e tenha uma visão instantânea de seus hábitos de consumo.</p>
-<p>Economize tempo, tenha clareza nos gastos mensais e encontre as melhores ofertas para poupar dinheiro.</p>
+## Objective
+We simplify users' lives with a single platform to create and manage shopping lists.
+Smart Shopping offers expense tracking, keeping the budget on track. With an intuitive interface, categorize your expenses and get an instant view of your consumption habits.
+Save time, gain clarity on monthly expenses, and find the best deals to save money.
 
-<h2>Ferramenta</h2>
-<p>A escolha do FastAPI em Python para o webservice foi motivada por sua facilidade e rapidez na criação de APIs, permitindo integração flexível com diversas tecnologias. A adoção do SQLAlchemy complementa o FastAPI ao oferecer uma camada de abstração para interação simplificada com bancos de dados relacionais, garantindo uma implementação coesa e eficiente do serviço. Essa combinação potencializa não apenas a agilidade no desenvolvimento, mas também a robustez e flexibilidade necessárias para lidar com os desafios do ambiente web moderno.</p>
+## Tool
+The choice of FastAPI in Python for the web service was motivated by its ease and speed in creating APIs, allowing flexible integration with various technologies. The adoption of SQLAlchemy complements FastAPI by offering an abstraction layer for simplified interaction with relational databases, ensuring a cohesive and efficient implementation of the service. This combination not only enhances development agility but also provides the robustness and flexibility needed to deal with the challenges of the modern web environment.
 
+### Creators:
 
-<h3>Criadores:</h3>
+- [Daniel Bernado](https://github.com/Brnards)
+- [Gabriel Dantas](https://github.com/dantas2009)
 
-<ul>
-    <li><a href="https://github.com/Brnards">Daniel Bernado</a></li>
-    <li><a href="https://github.com/dantas2009">Gabriel Dantas</a></li>
-</ul>
+### Prerequisites
+Before installing the project, ensure you have the following installed on your system:
+- [Python](https://www.python.org/): Version 3.10 or higher
+
+### Steps
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/dantas2009/senac-back-end.git
+cd senac-back-end
+python -m venv venv
+venv\Scripts\activate
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
